@@ -1,0 +1,157 @@
+
+
+
+body {
+  text-align: center;
+}
+
+header {
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: whitesmoke;
+  padding: 50px;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+.tittle {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 35px;
+}
+a:link, a:visited, a:hover, a:active{
+  color: black;
+}
+
+
+#babysitter {
+  width: 97px;
+  margin: -99px 0 23px 914px;
+}
+
+#travel a:link, a:visited, a:hover, a:active {
+color: #0033CC;
+text-decoration: none;
+}
+
+
+
+.banner {
+  padding-bottom: 35px;
+}
+
+.item.txt { 
+  padding-top: 24px;
+  font-size: 60px;
+}
+
+#tooltip{
+    display: inline;
+    position: relative;
+}
+
+#tooltip:hover:after{
+  bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+    color: #696969;
+    text-align: left;
+    content: attr(title);
+    left: -6%;
+    position: absolute;
+    z-index: 99;
+}
+
+#tooltip:hover:before{
+    border: solid;
+    border-color: #fff transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    right: 34%;
+    position: absolute;
+    z-index: 99;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.grid li {
+  display: block;
+  padding: 3px;
+  width:  590px;
+  float: left;
+  opacity: 0;
+}
+
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+  opacity: 1;
+}
+
+.grid li a,
+.grid li img {
+  width:  600px;
+  float: left;
+
+}
+
+/* Grid Effect: opacity */
+.grid.effect li.animate {
+  -webkit-animation: fadeIn 0.65s ease forwards;
+  animation: fadeIn 0.65s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  0% { }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { }
+  100% { opacity: 1; }
+}
+
+
+
+.container#photo {
+  width: 1200px;
+}
+
+
+@media only screen and (max-width: 320px) {
+ header {
+ 	font-size: 30px;
+ 	padding: 30px;
+ }	
+
+ footer {
+  padding-top: 20px;
+}
+
+ .container {
+  width: 320px;
+}
+  .banner img {
+    width: 320px;
+    float: left;
+    padding-bottom: 7px;
+    display: block;
+  }
+
+  .grid li {
+  display: block;
+  width: 100%;
+
+ }
+
+ .grid li img {
+  width:  315px;
+  float: left;
+
+}
+}
+
