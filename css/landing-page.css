@@ -1,0 +1,304 @@
+/*!
+ 
+    COLORS
+    ----
+    grey/black (dark text,backgrounds)       #1C1B1B
+    default text color (body)         #EFEFEF
+    dark text color              #1C1B1B  
+    
+    accent blue                  #004FFF
+  
+ */
+
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFEF;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #EFEFEF;
+}
+
+body {
+    font-weight: 500;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #EFEFEF;
+  letter-spacing: 6.5px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+.intro-header {
+  height: 90vh;
+  /*padding-top: 75px;
+  padding-bottom: 75px;*/
+  text-align: center;
+  color: #f8f8f8;
+  background: #1C1B1B;
+  background-size: cover;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  font-size: 5em;
+}
+
+
+.close-message{
+  position: relative;
+  padding-top: 14%;
+  padding-bottom: 14%;
+  letter-spacing: 4.6px;
+  line-height: 47px;
+}
+
+
+.message{
+  color: #1C1B1B;
+  position: relative;
+  padding-top: 14%;
+  padding-bottom: 14%;
+  letter-spacing: 4.6px;
+  line-height: 47px;
+}
+
+.biline {
+  color: #004FFF;
+  font-size: 0.8rem;
+  letter-spacing: 2.6px;
+  display: inline;
+  padding-left: 14px;
+  padding-right: 14px;
+
+}
+
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+    margin: auto;
+}
+
+.intro-words{
+  width: 185px;
+}
+.logo {
+  width: 60px;
+}
+
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+
+.content-section-a {
+  text-align: center;
+    /* Set a specific height */
+    height: 477px; 
+    background: url(../jpg/drake_boatworks.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content-section-b {
+  text-align: center;
+    /* Set a specific height */
+    height: 477px; 
+    background-color: #EFEFEF;
+ /*   background: url(../jpg/withoutacompass.png);*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .content-section-c {
+  text-align: center;
+    /* Set a specific height */
+    height: 477px; 
+    background-color: #EFEFEF;
+    background: url(../jpg/withoutacompass.png);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.content-section-d {
+  padding: 50px 0;
+  background-color: #1C1B1B;
+  text-align: center;
+}
+
+.content-section-e {
+  padding: 50px 0;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+
+.section-heading {
+  color: #EFEFEF;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 71px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+  padding-top: 160px;
+}
+
+.section-heading:hover {
+      mix-blend-mode: overlay;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align:center;
+  padding: 30px 20px 20px;
+  @include box-sizing(border-box);
+    
+}
+
+#eye {
+   width: 32px;
+   top: 380px;
+/*   mix-blend-mode: overlay;*/
+}
+
+#eye:hover {
+  content: url('../jpg/eye_closed_color.svg');
+  width: 32px;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../jpg/banner-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+
+footer {
+  padding: 2px 0;
+  background-color: #004FFF;
+}
+
+#bolt {
+  width: 9.75px;
+  position: relative;
+  display: inline;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 500px;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+
+  .section-heading {
+  font-size: 3em;
+  white-space: normal;
+  padding-top: 117px;
+  }  
+
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+   .intro-message {
+    padding-bottom: 440px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
