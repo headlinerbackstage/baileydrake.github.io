@@ -15,8 +15,7 @@
 body, html {
   width: 100%;
   height: 100%;
-  background-color: #1C1B1B;
-  overflow-x:hidden;
+  background-color: #EFEFEF;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -26,7 +25,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 body {
     font-weight: 500;
-    margin:0;
 }
 
 h3 {
@@ -51,7 +49,7 @@ p {
 
 
 .intro-header {
-  height: 90%;
+  height: 90vh;
   /*padding-top: 75px;
   padding-bottom: 75px;*/
   text-align: center;
@@ -59,6 +57,7 @@ p {
   background: #1C1B1B;
   background-size: cover;
 }
+
 
 .intro-message {
   position: relative;
@@ -116,13 +115,27 @@ img{
     margin: auto;
 }
 
-.intro-words{
-  width: 185px;
-}
+
 .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 60px;
+  height: 76.47px;
+  margin-top: -36px; /* Half the height */
+  margin-left: -32px; /* Half the width */
+
 }
 
+.intro-words {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 185px;
+   height: 190px;
+   margin-top: -92.5px; /* Half the height */
+   margin-left: -95px; /* Half the width */
+}
 
 .network-name {
   text-transform: uppercase;
@@ -150,7 +163,7 @@ img{
     /* Set a specific height */
     height: 477px; 
     background-color: #EFEFEF;
- /*   background: url(../jpg/withoutacompass.png);*/
+ /*   background: url(../img/withoutacompass.png);*/
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -247,7 +260,7 @@ footer {
 }
 
 #bolt {
-  width: 9.75px;
+  width: 8px;
   position: relative;
   display: inline;
 }
@@ -271,20 +284,35 @@ ul {
   .section-heading {
   font-size: 3em;
   white-space: normal;
-  padding-top: 90px;
+  padding-top: 117px;
   }  
 
 }
 
 @media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
    .intro-message {
     padding-bottom: 440px;
   }
 }
 
 @media(max-width:767px) {
-
-
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 
