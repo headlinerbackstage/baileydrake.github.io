@@ -106,6 +106,10 @@ p {
  text-decoration-color:#C0985A;
 }
 
+.biline a:hover {
+ text-decoration: underline;
+ text-decoration-color:#C0985A;
+}
 
 .intro-social-buttons i {
   font-size: 80%;
