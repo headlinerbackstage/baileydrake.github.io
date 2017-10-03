@@ -51,9 +51,8 @@ p {
   transform: translateY(-50%);
 }
 
-a a:link {
+a:-webkit-any-link {
  text-decoration: none;
- text-decoration-line: none;
 }
 
 
