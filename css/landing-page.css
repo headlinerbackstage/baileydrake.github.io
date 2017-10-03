@@ -103,7 +103,7 @@ p {
 }
 
 .biline a {
- text-decoration-color:#C0985A;
+ text-decoration: none;
 }
 
 .biline a:hover {
