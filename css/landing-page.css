@@ -53,6 +53,7 @@ p {
 
 a a:link {
  text-decoration: none;
+ text-decoration-line: none;
 }
 
 
