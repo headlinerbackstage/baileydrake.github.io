@@ -51,6 +51,9 @@ p {
   transform: translateY(-50%);
 }
 
+a a:link {
+ text-decoration: none;
+}
 
 
 .intro-header {
@@ -102,10 +105,6 @@ p {
   padding-left: 14px;
   padding-right: 14px;
 
-}
-
-a {
- text-decoration: none;
 }
 
 
