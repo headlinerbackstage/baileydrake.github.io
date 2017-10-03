@@ -95,13 +95,18 @@ p {
 }
 
 .biline {
-  color: #004FFF;
+  color: #C0985A;
   font-size: 0.8rem;
   letter-spacing: 2.6px;
   display: inline;
   padding-left: 14px;
   padding-right: 14px;
 
+}
+
+.biline a {
+ color: #C0985A;
+ text-decoration: none;
 }
 
 
