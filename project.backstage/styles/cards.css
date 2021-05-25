@@ -177,6 +177,25 @@
   margin-right: -11px;
 }
 
+.vimeo-wrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   overflow: hidden;
+}
+.vimeo-wrapper iframe {
+  width: 100%;
+  height: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
 /* Mobile CSS rules here*/
 @media only screen and (hover: none) and (pointer: coarse) {
   .entry-point-card-container {

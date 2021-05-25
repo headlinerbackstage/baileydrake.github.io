@@ -131,3 +131,21 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  opacity: 90%;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:active {
+  color: #ffffff;
+}
