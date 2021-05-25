@@ -46,9 +46,19 @@
   color: #fff;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 18px;
   line-height: 60px;
   padding-left: 36px;
+}
+
+.carousel-club {
+  font-family: Helvetica;
+  color: #D6D6D6;
+  font-style: normal;
+  font-size: 12px;
+  padding-left: 36px;
+  margin-top: -16px;
+  text-transform: uppercase;
 }
 
 .carousel-cards-container {
